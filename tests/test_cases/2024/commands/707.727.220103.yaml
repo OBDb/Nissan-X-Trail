@@ -1,0 +1,18 @@
+command_id: 707.727.220103
+test_cases:
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201033A
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201033B
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201033C
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201033D
