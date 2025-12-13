@@ -3,6 +3,26 @@ test_cases:
 - expected_values:
     NISSAN_TURN_SIGNAL_LEFT: 0
     NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201032C
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201032F
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: '7270462010332'
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: '7270462010333'
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: '7270462010335'
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
   response: 727046201033A
 - expected_values:
     NISSAN_TURN_SIGNAL_LEFT: 0
@@ -16,3 +36,7 @@ test_cases:
     NISSAN_TURN_SIGNAL_LEFT: 0
     NISSAN_TURN_SIGNAL_RIGHT: 0
   response: 727046201033D
+- expected_values:
+    NISSAN_TURN_SIGNAL_LEFT: 0
+    NISSAN_TURN_SIGNAL_RIGHT: 0
+  response: 727046201033E
