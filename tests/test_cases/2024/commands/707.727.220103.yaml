@@ -3,8 +3,8 @@ test_cases:
 - expected_values:
     NISSAN_TURN_SIGNAL_LEFT: 0
     NISSAN_TURN_SIGNAL_RIGHT: 0
-  response: 727046201032C
+  response: '7270462010322'
 - expected_values:
     NISSAN_TURN_SIGNAL_LEFT: 1
     NISSAN_TURN_SIGNAL_RIGHT: 0
-  response: '7270462010340'
+  response: '7270462010343'
