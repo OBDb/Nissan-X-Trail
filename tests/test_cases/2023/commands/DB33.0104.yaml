@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LOAD_PCT: 22.7451
   response: 18DAF1150341043A
+- expected_values:
+    LOAD_PCT: 32.94118
+  response: 18DAF11503410454
