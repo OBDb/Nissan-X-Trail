@@ -4,5 +4,5 @@ test_cases:
     NISSAN_ECT: 5
   response: 7640462F4672D
 - expected_values:
-    NISSAN_ECT: 56
-  response: 7640462F46760
+    NISSAN_ECT: 60
+  response: 7640462F46764
