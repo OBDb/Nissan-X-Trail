@@ -1,0 +1,5 @@
+command_id: DB33.221164|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_EXHVTB1: 63.5
+  response: 7E8046211647F
