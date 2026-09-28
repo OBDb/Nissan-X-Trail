@@ -1,0 +1,8 @@
+command_id: 740.760.221115
+test_cases:
+- expected_values:
+    NISSAN_APP: 0
+  response: '7600462111500'
+- expected_values:
+    NISSAN_APP: 61
+  response: 760046211157A
