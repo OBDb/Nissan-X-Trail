@@ -1,0 +1,5 @@
+command_id: DB33.221125|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_LTFT1: -17.96875
+  response: '7E80462112569'
