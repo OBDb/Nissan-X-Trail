@@ -1,0 +1,5 @@
+command_id: DB33.22111A|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_O2S12: 0.3
+  response: 7E80462111A1E

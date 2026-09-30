@@ -1,0 +1,8 @@
+command_id: DB33.221101|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_ECT: 87
+  response: '7E80462110189'
+- expected_values:
+    NI_ECT: 88
+  response: 7E8046211018A
