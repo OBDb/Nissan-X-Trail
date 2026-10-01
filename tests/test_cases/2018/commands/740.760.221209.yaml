@@ -1,0 +1,11 @@
+command_id: 740.760.221209
+test_cases:
+- expected_values:
+    XTRAIL_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    XTRAIL_BRAKE_MC_P: -4
+  response: 76005621209FFFC
+- expected_values:
+    XTRAIL_BRAKE_MC_P: -1
+  response: 76005621209FFFF
