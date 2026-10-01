@@ -421,71 +421,71 @@
   "signals": [
     {"id": "XTRAIL_TCM_SEL_SOL_MON", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Select solenoid monitor current"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1105"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1105"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_EGR_T_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Exhaust gas recirculation temperature sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1111"}, "freq": 5,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1111"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1114"}, "freq": 30,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1114"}, "freq": 30, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 10.2, "div": 25, "unit": "volts" }, "name": "Fuel level input"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1115"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1115"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_EVAP_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "EVAP pressure sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "111F"}, "freq": 5,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "111F"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_EOT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1207"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1207"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_BASE_INJ_TIM", "path": "Engine", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "milliseconds" }, "name": "Base injection timing"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120C"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120C"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_FUEL_P_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 20, "mul": 4, "div": 13107, "unit": "volts" }, "name": "Fuel pressure sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120D"}, "freq": 0.25,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120D"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_ACCEL_PEDAL_POS_SENS_1", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Accelerator pedal position sensor 1, volts"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120E"}, "freq": 0.25,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120E"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_ACCEL_PEDAL_POS_SENS_2", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Accelerator pedal position sensor 2, volts"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120F"}, "freq": 0.25,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "120F"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_THROTTLE_POS_SENS_1", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Throttle position sensor 1, volts"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1210"}, "freq": 0.25,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1210"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_THROTTLE_POS_SENS_2", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Throttle position sensor 2, volts"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "121F"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "121F"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_ROLL_OVER_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "2170"}, "freq": 5,
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "2170"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_ATF_T", "path": "Transmission", "fmt": {"bix": 232, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B00"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B00"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B01"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B01"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B02"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B02"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B03"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B03"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
     {"id": "XTRAIL_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
