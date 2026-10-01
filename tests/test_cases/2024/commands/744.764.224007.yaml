@@ -1,17 +1,17 @@
-command_id: '744.224007'
+command_id: 744.764.224007
 test_cases:
 - expected_values:
-    NISSAN_AC_STATUS: 0
+    XTRAIL_AC_STATUS: 0
   response: '7640762400700000000'
 - expected_values:
-    NISSAN_AC_STATUS: 0
+    XTRAIL_AC_STATUS: 0
   response: '7640762400700001000'
 - expected_values:
-    NISSAN_AC_STATUS: 8
+    XTRAIL_AC_STATUS: 8
   response: '7640762400708001000'
 - expected_values:
-    NISSAN_AC_STATUS: 16
+    XTRAIL_AC_STATUS: 16
   response: '7640762400710001000'
 - expected_values:
-    NISSAN_AC_STATUS: 136
+    XTRAIL_AC_STATUS: 136
   response: '7640762400788001000'

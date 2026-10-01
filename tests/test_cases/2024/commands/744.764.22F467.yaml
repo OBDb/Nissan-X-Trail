@@ -1,8 +1,8 @@
-command_id: 744.22F467
+command_id: 744.764.22F467
 test_cases:
 - expected_values:
-    NISSAN_ECT: 9
+    XTRAIL_ECT: 9
   response: 7640462F46731
 - expected_values:
-    NISSAN_ECT: 73
+    XTRAIL_ECT: 73
   response: 7640462F46771
