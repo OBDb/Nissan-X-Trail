@@ -1,0 +1,5 @@
+command_id: 758.778.220202
+test_cases:
+- expected_values:
+    XTRAIL_TP_FR: null
+  response: '7780462020200'
