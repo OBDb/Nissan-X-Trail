@@ -1,11 +1,8 @@
 command_id: 743.763.220E28|fc=1
 test_cases:
 - expected_values:
-    NISSAN_TP_RL_V2: 0
-  response: '76304620E2800'
-- expected_values:
-    NISSAN_TP_RL_V2: 220.63224
+    XTRAIL_TP_RL_743: 32
   response: '76304620E2880'
 - expected_values:
-    NISSAN_TP_RL_V2: 227.527
+    XTRAIL_TP_RL_743: 33
   response: '76304620E2884'

@@ -1,23 +1,23 @@
 command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
-    NISSAN_ODO: 19124
+    XTRAIL_ODO: 19124
   response: 76306620E01004AB4
 - expected_values:
-    NISSAN_ODO: 19125
+    XTRAIL_ODO: 19125
   response: 76306620E01004AB5
 - expected_values:
-    NISSAN_ODO: 19126
+    XTRAIL_ODO: 19126
   response: 76306620E01004AB6
 - expected_values:
-    NISSAN_ODO: 19127
+    XTRAIL_ODO: 19127
   response: 76306620E01004AB7
 - expected_values:
-    NISSAN_ODO: 19134
+    XTRAIL_ODO: 19134
   response: 76306620E01004ABE
 - expected_values:
-    NISSAN_ODO: 19176
+    XTRAIL_ODO: 19176
   response: 76306620E01004AE8
 - expected_values:
-    NISSAN_ODO: 19177
+    XTRAIL_ODO: 19177
   response: 76306620E01004AE9

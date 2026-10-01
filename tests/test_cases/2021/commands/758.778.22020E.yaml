@@ -1,5 +1,5 @@
 command_id: 758.778.22020E
 test_cases:
 - expected_values:
-    XTRAIL_TPW_FR: 28.25
-  response: '7780462020E71'
+    XTRAIL_TPW_FR: 34.25
+  response: '7780462020E89'

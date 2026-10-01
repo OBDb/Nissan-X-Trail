@@ -1,5 +1,5 @@
 command_id: 758.778.220210
 test_cases:
 - expected_values:
-    XTRAIL_TPW_RL: 28.25
-  response: '7780462021071'
+    XTRAIL_TPW_RL: 32.25
+  response: '7780462021081'
