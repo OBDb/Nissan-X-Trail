@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2103|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TRANS_ATF: 929
+  response: 7E9066103000003A1

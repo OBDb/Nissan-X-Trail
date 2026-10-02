@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221205|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_SEC_P_V: 0.71359
+  response: '7E9056212050092'
+- expected_values:
+    XTRAIL_TCM_SEC_P_V: 1.24145
+  response: 7E90562120500FE
+- expected_values:
+    XTRAIL_TCM_SEC_P_V: 1.28055
+  response: '7E9056212050106'
