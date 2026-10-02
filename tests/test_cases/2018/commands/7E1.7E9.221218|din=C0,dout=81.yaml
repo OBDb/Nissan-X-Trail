@@ -1,32 +1,14 @@
 command_id: 7E1.7E9.221218|din=C0,dout=81
 test_cases:
 - expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 0.6058
-  response: 7E90562121817AA
+    XTRAIL_TCM_PULLEY_RAT_TGT: 0.5502
+  response: 7E905621218157E
 - expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 0.982
-  response: 7E905621218265C
+    XTRAIL_TCM_PULLEY_RAT_TGT: 0.7946
+  response: 7E9056212181F0A
 - expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 1.1597
-  response: 7E9056212182D4D
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 1.5749
-  response: 7E9056212183D85
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 1.5996
-  response: 7E9056212183E7C
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 2.0067
-  response: 7E9056212184E63
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 2.0764
-  response: 7E905621218511C
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 2.087
-  response: '7E9056212185186'
-- expected_values:
-    XTRAIL_TCM_PULLEY_RAT_TGT: 2.113
-  response: 7E905621218528A
+    XTRAIL_TCM_PULLEY_RAT_TGT: 2.5594
+  response: 7E90562121863FA
 - expected_values:
     XTRAIL_TCM_PULLEY_RAT_TGT: 2.631
   response: 7E90562121866C6

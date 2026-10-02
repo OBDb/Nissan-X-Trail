@@ -1,17 +1,8 @@
 command_id: 7E1.7E9.221113|din=C0,dout=81
 test_cases:
 - expected_values:
-    XTRAIL_TCM_REQ_TQ: 42
-  response: 7E904621113E3
-- expected_values:
-    XTRAIL_TCM_REQ_TQ: 46
-  response: 7E904621113E5
-- expected_values:
-    XTRAIL_TCM_REQ_TQ: 64
-  response: 7E904621113EE
-- expected_values:
-    XTRAIL_TCM_REQ_TQ: 82
-  response: 7E904621113F7
+    XTRAIL_TCM_REQ_TQ: -102
+  response: 7E9046211139B
 - expected_values:
     XTRAIL_TCM_REQ_TQ: 96
   response: 7E904621113FE

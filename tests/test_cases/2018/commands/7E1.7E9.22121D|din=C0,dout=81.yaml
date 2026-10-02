@@ -2,28 +2,10 @@ command_id: 7E1.7E9.22121D|din=C0,dout=81
 test_cases:
 - expected_values:
     XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02CD
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02DB
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02DC
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02DE
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02E6
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02E9
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02EA
-- expected_values:
-    XTRAIL_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02EB
+  response: 7E90562121D02BA
 - expected_values:
     XTRAIL_TCM_SEL_SOL_C: 0.002
   response: 7E90562121D02EC
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_C: 0.003
+  response: 7E90562121D03E8

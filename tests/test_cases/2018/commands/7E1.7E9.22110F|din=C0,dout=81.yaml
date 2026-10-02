@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22110F|din=C0,dout=81
 test_cases:
 - expected_values:
-    XTRAIL_TCM_PRI_P_TGT: 275
-  response: 7E90462110F0B
+    XTRAIL_TCM_PRI_P_TGT: 150
+  response: 7E90462110F06
 - expected_values:
-    XTRAIL_TCM_PRI_P_TGT: 1000
-  response: 7E90462110F28
+    XTRAIL_TCM_PRI_P_TGT: 1125
+  response: 7E90462110F2D

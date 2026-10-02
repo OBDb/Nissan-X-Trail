@@ -5,10 +5,4 @@ test_cases:
   response: 7E90562121E0001
 - expected_values:
     XTRAIL_TCM_SOL_MON_1: 0
-  response: 7E90562121E0058
-- expected_values:
-    XTRAIL_TCM_SOL_MON_1: 0
-  response: 7E90562121E006C
-- expected_values:
-    XTRAIL_TCM_SOL_MON_1: 0
-  response: 7E90562121E009C
+  response: 7E90562121E00A2
