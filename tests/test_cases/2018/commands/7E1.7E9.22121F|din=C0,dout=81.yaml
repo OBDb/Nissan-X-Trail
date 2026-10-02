@@ -2,7 +2,7 @@ command_id: 7E1.7E9.22121F|din=C0,dout=81
 test_cases:
 - expected_values:
     XTRAIL_TCM_SOL_MON_2: 0
-  response: 7E90562121F00B4
+  response: 7E90562121F00B3
 - expected_values:
     XTRAIL_TCM_SOL_MON_2: 0
-  response: 7E90562121F00CE
+  response: 7E90562121F00D3

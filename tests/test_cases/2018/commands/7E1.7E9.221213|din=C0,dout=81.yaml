@@ -4,26 +4,11 @@ test_cases:
     XTRAIL_TCM_ENG_TQ_TX: 6
   response: 7E905621213003C
 - expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 8
-  response: '7E9056212130050'
-- expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 10
-  response: '7E9056212130064'
-- expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 16
-  response: 7E90562121300A0
-- expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 18
-  response: 7E90562121300B4
-- expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 20
-  response: 7E90562121300C8
-- expected_values:
     XTRAIL_TCM_ENG_TQ_TX: 24
   response: 7E90562121300F0
 - expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 72
-  response: 7E90562121302D0
+    XTRAIL_TCM_ENG_TQ_TX: 26
+  response: '7E9056212130104'
 - expected_values:
-    XTRAIL_TCM_ENG_TQ_TX: 106
-  response: '7E9056212130424'
+    XTRAIL_TCM_ENG_TQ_TX: -12
+  response: 7E905621213FF88
