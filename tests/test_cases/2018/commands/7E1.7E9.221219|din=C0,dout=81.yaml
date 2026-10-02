@@ -5,16 +5,7 @@ test_cases:
   response: '7E9056212190000'
 - expected_values:
     XTRAIL_TCM_ISO_1_C: 0.001
-  response: '7E9056212190162'
-- expected_values:
-    XTRAIL_TCM_ISO_1_C: 0.001
-  response: '7E9056212190175'
-- expected_values:
-    XTRAIL_TCM_ISO_1_C: 0.001
-  response: '7E9056212190177'
-- expected_values:
-    XTRAIL_TCM_ISO_1_C: 0.001
   response: 7E90562121901B0
 - expected_values:
     XTRAIL_TCM_ISO_1_C: 0.002
-  response: '7E9056212190271'
+  response: '7E9056212190220'

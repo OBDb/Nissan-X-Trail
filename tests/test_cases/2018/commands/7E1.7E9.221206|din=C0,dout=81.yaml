@@ -1,8 +1,11 @@
 command_id: 7E1.7E9.221206|din=C0,dout=81
 test_cases:
 - expected_values:
-    XTRAIL_TCM_PRI_P_V: 0.54741
-  response: '7E9056212060070'
+    XTRAIL_TCM_PRI_P_V: 0.47898
+  response: '7E9056212060062'
 - expected_values:
-    XTRAIL_TCM_PRI_P_V: 1.11926
-  response: 7E90562120600E5
+    XTRAIL_TCM_PRI_P_V: 1.23656
+  response: 7E90562120600FD
+- expected_values:
+    XTRAIL_TCM_PRI_P_V: 1.31965
+  response: 7E905621206010E

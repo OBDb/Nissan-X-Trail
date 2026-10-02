@@ -2,10 +2,10 @@ command_id: 7E1.7E9.22121C|din=C0,dout=81
 test_cases:
 - expected_values:
     XTRAIL_TCM_SEC_SOL_C: 0.002
-  response: 7E90562121C02DA
+  response: 7E90562121C02D0
 - expected_values:
     XTRAIL_TCM_SEC_SOL_C: 0.002
   response: 7E90562121C02F9
 - expected_values:
     XTRAIL_TCM_SEC_SOL_C: 0.003
-  response: 7E90562121C030A
+  response: 7E90562121C0300

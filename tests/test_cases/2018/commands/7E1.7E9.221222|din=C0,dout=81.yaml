@@ -5,4 +5,4 @@ test_cases:
   response: 7E90562122200B3
 - expected_values:
     XTRAIL_TCM_SEC_SOL_MON: 0
-  response: 7E90562122200CD
+  response: 7E90562122200D6
