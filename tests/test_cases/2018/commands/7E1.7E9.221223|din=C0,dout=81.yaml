@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.221223|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300B2
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300B4
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300B7
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300B8
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300BA
+- expected_values:
+    XTRAIL_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300BB

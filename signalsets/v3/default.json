@@ -27,7 +27,7 @@
   "signals": [
     {"id": "XTRAIL_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1208"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1208"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_ABS_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Anti-lock brake steering angle"}
   ]},
@@ -59,7 +59,7 @@
   "signals": [
     {"id": "XTRAIL_TP_RL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "53"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "din": "C0", "cmd": {"21": "53"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_IH",                      "path": "Engine", "fmt": {            "len": 8, "max": 255, "unit": "percent" }, "name": "Ih_feetventactrposition"},
     {"id": "XTRAIL_IH_LEFTMIXACTRPOSITION",  "path": "Engine", "fmt": {"bix": 8,   "len": 8, "max": 255, "unit": "percent" }, "name": "Ih_leftmixactrposition"},
@@ -216,7 +216,7 @@
   "signals": [
     {"id": "XTRAIL_UP_OXYGEN_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Upstream oxygen sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1307"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Air conditioning compressor"},
     {"id": "XTRAIL_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle control mode"}
@@ -226,7 +226,7 @@
     {"id": "XTRAIL_BRAKE_SWITCH_NUMBER_2", "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 2"},
     {"id": "XTRAIL_BRAKE_SWITCH_NUMBER_1", "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1313"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan low"},
     {"id": "XTRAIL_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan high"}
@@ -309,11 +309,11 @@
   "signals": [
     {"id": "XTRAIL_GEARBOX_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gearbox ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "03"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TRANS_ATF", "path": "Transmission", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Transmission ATF deterioration date"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TRANS_B",                   "path": "Transmission", "fmt": {            "len": 16, "max": 65535,           "unit": "scalar" }, "name": "Transmission-B"},
     {"id": "XTRAIL_TRANS_WORK_HOURS",          "path": "Transmission", "fmt": {"bix": 32,  "len": 16, "max": 10922, "div": 6, "unit": "hours"  }, "name": "Transmission work hours"},
@@ -324,103 +324,103 @@
   "signals": [
     {"id": "XTRAIL_TCM_PRI_P", "path": "Transmission", "fmt": { "len": 16, "max": 1638375, "mul": 25, "unit": "kilopascal" }, "name": "Primary pulley pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "110C"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110C"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "110D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_LUBE_P", "path": "Transmission", "fmt": { "len": 8, "max": 1270, "min": -1280, "mul": 10, "sign": true, "unit": "kilopascal" }, "name": "Lubrication pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "110F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_P_TGT", "path": "Transmission", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "kilopascal" }, "name": "Target primary pulley pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1112"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1112"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_REQ_TQ_D", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque delta"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1113"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1113"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_REQ_TQ", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1202"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1202"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Primary pulley speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SEC_P_V", "path": "Transmission", "fmt": { "len": 16, "max": 320, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Secondary pressure sensor voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1206"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1206"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_P_V", "path": "Transmission", "fmt": { "len": 16, "max": 320, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Primary pressure sensor voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1207"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1207"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ATF_T_V", "path": "Transmission", "fmt": { "len": 16, "max": 320, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Fluid temperature sensor voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1212"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1212"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ENG_TQ_ACT", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque, active"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1213"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1213"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ENG_TQ_TX", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque, transmitted"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1214"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1214"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ENG_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1215"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1215"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Primary pulley torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1216"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1216"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_TQ_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 236, "mul": 577, "div": 160000, "unit": "scalar" }, "name": "Torque ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1218"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1218"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PULLEY_RAT_TGT", "path": "Transmission", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "scalar" }, "name": "Target pulley ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1219"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1219"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ISO_1_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Isolation solenoid 1 current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_ISO_2_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Isolation solenoid 2 current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121B"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_SOL_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Primary solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SEC_SOL_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Secondary solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SEL_SOL_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Select solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SOL_MON_1", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Solenoid 1 monitor current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "121F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SOL_MON_2", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Solenoid 2 monitor current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1221"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1221"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_PRI_SOL_MON", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Primary solenoid monitor current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1222"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1222"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SEC_SOL_MON", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Secondary solenoid monitor current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1223"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1223"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "XTRAIL_TCM_SEL_SOL_MON", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Select solenoid monitor current"}
   ]},

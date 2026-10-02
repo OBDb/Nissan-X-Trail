@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22110D|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_LUBE_P: 90
+  response: 7E90462110D09
+- expected_values:
+    XTRAIL_TCM_LUBE_P: 580
+  response: 7E90462110D3A
+- expected_values:
+    XTRAIL_TCM_LUBE_P: -500
+  response: 7E90462110DCE
+- expected_values:
+    XTRAIL_TCM_LUBE_P: -40
+  response: 7E90462110DFC
