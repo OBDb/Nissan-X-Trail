@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22121B|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_PRI_SOL_C: 0.002
+  response: 7E90562121B02E9
+- expected_values:
+    XTRAIL_TCM_PRI_SOL_C: 0.002
+  response: 7E90562121B02F1
+- expected_values:
+    XTRAIL_TCM_PRI_SOL_C: 0.003
+  response: 7E90562121B0303

@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.221216|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 0.9232
+  response: '7E9056212160100'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 0.93762
+  response: '7E9056212160104'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.09991
+  response: '7E9056212160131'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.28743
+  response: '7E9056212160165'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.32349
+  response: 7E905621216016F
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.3271
+  response: '7E9056212160170'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.33431
+  response: '7E9056212160172'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.46414
+  response: '7E9056212160196'
+- expected_values:
+    XTRAIL_TCM_TQ_RAT: 1.71297
+  response: 7E90562121601DB

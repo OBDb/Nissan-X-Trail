@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221214|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_ENG_TQ: 0.5
+  response: '7E9056212140005'
+- expected_values:
+    XTRAIL_TCM_ENG_TQ: 25.5
+  response: 7E90562121400FF
+- expected_values:
+    XTRAIL_TCM_ENG_TQ: 26
+  response: '7E9056212140104'
+- expected_values:
+    XTRAIL_TCM_ENG_TQ: -18.7
+  response: 7E905621214FF45

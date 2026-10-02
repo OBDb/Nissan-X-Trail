@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221112|din=C0,dout=81
+test_cases:
+- expected_values:
+    XTRAIL_TCM_REQ_TQ_D: 96
+  response: 7E904621112FE
