@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22110C|din=C0,dout=81
 test_cases:
 - expected_values:
-    XTRAIL_TCM_ATF_T: 43
-  response: 7E90462110C53
+    XTRAIL_TCM_ATF_T: 42
+  response: 7E90462110C52
 - expected_values:
     XTRAIL_TCM_ATF_T: 88
   response: 7E90462110C80
