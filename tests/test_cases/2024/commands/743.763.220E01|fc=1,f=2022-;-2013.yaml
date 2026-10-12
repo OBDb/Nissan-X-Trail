@@ -1,4 +1,4 @@
-command_id: 743.763.220E01|fc=1
+command_id: 743.763.220E01|fc=1,f=2022-;-2013
 test_cases:
 - expected_values:
     XTRAIL_ODO: 12781
