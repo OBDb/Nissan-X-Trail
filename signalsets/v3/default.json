@@ -7,15 +7,15 @@
     {"id": "XTRAIL_TURN_SIGNAL_RIGHT", "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal"},
     {"id": "XTRAIL_TURN_SIGNAL_LEFT",  "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "XTRAIL_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "XTRAIL_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "XTRAIL_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
   ]},
@@ -39,23 +39,23 @@
   "signals": [
     {"id": "XTRAIL_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_TP_FR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_TP_FL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_TP_RR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_TP_RL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},

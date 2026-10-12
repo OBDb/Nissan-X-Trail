@@ -1,4 +1,4 @@
-command_id: 723.735.220107
+command_id: 723.735.220107|f=-2021
 test_cases:
 - expected_values:
     XTRAIL_RADAR_DISTANCE: 5.5
