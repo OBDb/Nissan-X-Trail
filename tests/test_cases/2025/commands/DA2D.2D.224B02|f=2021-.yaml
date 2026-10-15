@@ -1,0 +1,14 @@
+command_id: DA2D.2D.224B02|f=2021-
+test_cases:
+- expected_values:
+    XTRAIL_RL_WHL_SPD: 0
+  response: 18DAF12D05624B020000
+- expected_values:
+    XTRAIL_RL_WHL_SPD: 19.63
+  response: 18DAF12D05624B0207AB
+- expected_values:
+    XTRAIL_RL_WHL_SPD: 27.84
+  response: 18DAF12D05624B020AE0
+- expected_values:
+    XTRAIL_RL_WHL_SPD: 46.74
+  response: 18DAF12D05624B021242

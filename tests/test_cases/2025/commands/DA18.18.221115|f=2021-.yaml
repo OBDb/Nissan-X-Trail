@@ -1,0 +1,5 @@
+command_id: DA18.18.221115|f=2021-
+test_cases:
+- expected_values:
+    XTRAIL_EVAP_P_SENS_V: 0
+  response: 18DAF1180462111500

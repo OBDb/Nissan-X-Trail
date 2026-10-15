@@ -1,0 +1,5 @@
+command_id: 744.764.224007
+test_cases:
+- expected_values:
+    XTRAIL_AC_STATUS: 8
+  response: '7640762400708440000'

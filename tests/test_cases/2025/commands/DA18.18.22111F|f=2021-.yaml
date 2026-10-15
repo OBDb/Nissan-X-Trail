@@ -1,0 +1,5 @@
+command_id: DA18.18.22111F|f=2021-
+test_cases:
+- expected_values:
+    XTRAIL_EOT: -50
+  response: 18DAF1180462111F00
