@@ -76,15 +76,15 @@
     {"id": "XTRAIL_IH_REARMIXACTRPOSITION",  "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "percent" }, "name": "Ih_rearmixactrposition"},
     {"id": "XTRAIL_OH_REARMIXACTRREQ",       "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "percent" }, "name": "Oh_rearmixactrreq"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "offon" }, "name": "A/C status"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
@@ -436,11 +436,11 @@
   "signals": [
     {"id": "XTRAIL_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 10.2, "div": 25, "unit": "volts" }, "name": "Fuel level input"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1115"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "1115"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_EVAP_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "EVAP pressure sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "111F"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "111F"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_EOT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -472,23 +472,23 @@
   "signals": [
     {"id": "XTRAIL_ROLL_OVER_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "2170"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2170"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_ATF_T", "path": "Transmission", "fmt": {"bix": 232, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B00"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B00"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B01"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B01"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B02"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B02"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B03"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B03"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "XTRAIL_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
