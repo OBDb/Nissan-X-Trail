@@ -43,19 +43,19 @@
   "signals": [
     {"id": "XTRAIL_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "XTRAIL_TP_FR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "XTRAIL_TP_FL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "XTRAIL_TP_RR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "to": 2013, "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "XTRAIL_TP_RL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -132,35 +132,35 @@
   "signals": [
     {"id": "XTRAIL_AWD_CLU_HIGH_T_SIG_2", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "All-wheel drive clutch high temperature signal 2"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0201"}, "freq": 15,
   "signals": [
     {"id": "XTRAIL_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0202"}, "freq": 15,
   "signals": [
     {"id": "XTRAIL_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0203"}, "freq": 15,
   "signals": [
     {"id": "XTRAIL_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "dbg": true, "cmd": {"22": "0204"}, "freq": 15,
   "signals": [
     {"id": "XTRAIL_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "XTRAIL_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "XTRAIL_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "XTRAIL_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "XTRAIL_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
