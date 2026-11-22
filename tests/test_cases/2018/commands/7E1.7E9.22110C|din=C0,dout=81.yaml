@@ -4,5 +4,5 @@ test_cases:
     XTRAIL_TCM_ATF_T: 29
   response: 7E90462110C45
 - expected_values:
-    XTRAIL_TCM_ATF_T: 95
-  response: 7E90462110C87
+    XTRAIL_TCM_ATF_T: 101
+  response: 7E90462110C8D
